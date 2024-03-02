@@ -96,8 +96,7 @@
             <div class="page-header">
                 <h4> Graph Pre-Training and Fine-Tuning</h4>
             </div>
-                <img width="450" src="aptmodel.png" align="left" style="margin-left:20px;margin-right:20px;margin-bottom:20px">
-              
+                <img width="400" src="aptmodel.png" align="left" style="margin-left:20px;margin-right:20px;margin-bottom:20px">
                 <p>
                   <!--
                   In recent years, pre-training graph neural networks has gained significant attention, with a focus on acquiring transferable knowledge for downstream tasks with unlabeled data.  Despite these recent endeavors, the problem of negative transfer remains a major concern when utilizing graph pre-trained models to downstream tasks. <br><br>
@@ -106,34 +105,29 @@
                   (1) When to pre-train: Under what situations the "graph pre-train and fine-tune" paradigm should be adopted? (W2PGNN, <a href="works/w2pgnn.pdf">Cao and Xu et al, KDD'23</a>)<br>
                   (2) What to pre-train: Is a massive amount of input data really necessary, or even beneﬁcial, for graph pre-training?  (APT, <a href="works/nips23.pdf">Xu et al, NeurIPS'23</a>)<br>
                   (3) How to fine-tune: Given a graph pre-trained model, design an efficient fine-tuning stragey to diminish the impact of the difference between pre-training and downstream tasks.  (Bridge-Tune, <a href="works/aaai24_huang.pdf">Huang and Xu et al, AAAI'24</a>)<br><br>         
-                 
                 </p>  
               
-        <div class="page-header">
-            <h4>Robust Graph Machine Learning</h4>
-        </div>
-            <img width="450" src="robustmodel.png" align="left" style="margin-left:20px;margin-right:20px;margin-bottom:20px">
-      
-            <p>
-              We investigate the robustness of graph machine learning models against adversarial attacks:<br> 
-              (1) Our research reveals that blindfolded adversaries, even when totally unaware of the underlying model. are still threatening. (STACK, <a href="works/11209.XuJ.pdf">Xu et al, AAAI'22</a>)<br> 
-              (2) We propose a robust graph pre-trained model, such that the adversarial attacks on the input graph can be successfully identifed and blocked before being propogated to different downstream tasks. (<a href="works/11849.XuJ.pdf">Xu et al, AAAI'22</a>)<br> 
-              (3) We propose a proactive defense strategy where nodes and edges in graphs are naturally protected in a sense that attacking them incurs certain costs. (RisKeeper, <a href="works/aaai24_liao.pdf">Liao and Fu et al, AAAI'24</a>)<br><br> 
-            
-            </p>
-              
-        <div class="page-header">
-            <h4>Network Denoising</h4>
-        </div>
-            <img width="450" src="works/enet/enet.gif" align="left" style="margin-left:20px;margin-right:20px;margin-bottom:20px">
-      
-            <p>
-              Network data in real-world tends to be error-prone due to incomplete sampling, imperfect measurements or even malicious attacks.  Our research aims to reconstruct a reliable network from a ﬂawed one:<br>
-              (1) We propose a network denoising method that is driven by specific business contexts to facilitate the denoising process. (NetRL, <a href="works/tkde2021_netrl_xu.pdf">Xu et al, TKDE'21</a>)<br>
-              (2) We propose a self-enhancing network denoising method that leverages self-supervision to learn a task-agnostic denoised network, applicable across diverse business contexts. (E-Net, <a href="works/enet/tkde2020_robust_xu.pdf">Xu et al, TKDE'20</a>)<br><br>  
-
-             </p>
-      
+            <div class="page-header">
+                <h4>Robust Graph Machine Learning</h4>
+            </div>
+                <img width="400" src="robustmodel.png" align="left" style="margin-left:20px;margin-right:20px;margin-bottom:20px">
+                <p>
+                  We investigate the robustness of graph machine learning models against adversarial attacks:<br> 
+                  (1) Our research reveals that blindfolded adversaries, even when totally unaware of the underlying model. are still threatening. (STACK, <a href="works/11209.XuJ.pdf">Xu et al, AAAI'22</a>)<br> 
+                  (2) We propose a robust graph pre-trained model, such that the adversarial attacks on the input graph can be successfully identifed and blocked before being propogated to different downstream tasks. (<a href="works/11849.XuJ.pdf">Xu et al, AAAI'22</a>)<br> 
+                  (3) We propose a proactive defense strategy where nodes and edges in graphs are naturally protected in a sense that attacking them incurs certain costs. (RisKeeper, <a href="works/aaai24_liao.pdf">Liao and Fu et al, AAAI'24</a>)<br><br> 
+                </p>
+                  
+            <div class="page-header">
+                <h4>Network Denoising</h4>
+            </div>
+                <img width="400" src="works/enet/enet.gif" align="left" style="margin-left:20px;margin-right:20px;margin-bottom:20px">
+                <p>
+                  Network data in real-world tends to be error-prone due to incomplete sampling, imperfect measurements or even malicious attacks.  Our research aims to reconstruct a reliable network from a ﬂawed one:<br>
+                  (1) We propose a network denoising method that is driven by specific business contexts to facilitate the denoising process. (NetRL, <a href="works/tkde2021_netrl_xu.pdf">Xu et al, TKDE'21</a>)<br>
+                  (2) We propose a self-enhancing network denoising method that leverages self-supervision to learn a task-agnostic denoised network, applicable across diverse business contexts. (E-Net, <a href="works/enet/tkde2020_robust_xu.pdf">Xu et al, TKDE'20</a>)<br><br>  
+                 </p>
+          
     </div>
 
 
